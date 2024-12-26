@@ -1,0 +1,125 @@
+
+
+
+.business-hours-cont{
+    color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.business-title-wrapp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.business-title-wrapp img{
+    height: 200px;
+    object-fit: cover;
+    margin-right: -70px;
+    margin-bottom: -80px;
+}
+.left-right-hold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time-left{
+   width: 600px;
+    padding: 20px;
+}
+.time-right{
+    width: 600px;
+    padding: 20px;
+}
+.time-box-cont{
+    background-color: rgb(80, 80, 80);
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.time-box{
+    border-top: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.time-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.time-bottom .time-box-cont{
+    width: 40%;
+    padding: 10px;
+    margin: 0;
+    border: none;
+}
+@media (max-width: 1340px){
+    .left-right-hold{
+
+    }
+    .left-right-hold .time-left{
+        width: 100%;
+    }
+    .left-right-hold .time-right{
+        width: 100%;
+    }
+    .time-left .time-box-cont{
+        width: 450px !important;
+    }
+    .time-right .time-box-cont{
+        width: 450px !important;
+    }
+}
+@media (max-width: 1200px){
+    .time-left .time-box-cont{
+        width: 400px !important;
+    }
+    .time-right .time-box-cont{
+        width: 400px !important;
+    }
+}
+@media (max-width: 1150px){
+    .time-left .time-box-cont{
+        width: 350px !important;
+    }
+    .time-right .time-box-cont{
+        width: 350px !important;
+    }
+    .business-title-wrapp img {
+        height: 70px;
+        object-fit: cover;
+        margin-right: -70px;
+        margin-bottom: -80px;
+    }
+    .left-right-hold {
+        display: grid
+    ;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 90px){
+    .time-left .time-box-cont{
+        width: 330px !important;
+    }
+    .time-right .time-box-cont{
+        width: 330px !important;
+    }
+    .business-title-wrapp img {
+        height: 70px;
+        object-fit: cover;
+        margin-right: -70px;
+        margin-bottom: -80px;
+    }
+    .left-right-hold {
+        display: grid
+    ;
+        justify-content: center;
+        align-items: center;
+    }
+}
